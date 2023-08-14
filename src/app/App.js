@@ -32,10 +32,10 @@ export default function App() {
           outerScale={5}
         />
       </div>
-      {/* <ScrollToTop> */}
+      <ScrollToTop>
         <Headermain />
         <AppRoutes />
-      {/* </ScrollToTop> */}
+      </ScrollToTop>
     </Router>
   );
 }
